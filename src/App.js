@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import DisplayQuestions from './components/DisplayQuestions/DisplayQuestions'
+import AnswerProvider from './components/AnswerProvider/AnswerProvider'
+import './App.css'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+     <AnswerProvider>
+      <div className="App">
+        <h1>Frequntly asked questions</h1>
+        <p>Hello! Didn't find what you are looking for? Please contact us.</p>
+        <DisplayQuestions />
+      </div>
+      </AnswerProvider>  
+  )
 }
 
-export default App;
+

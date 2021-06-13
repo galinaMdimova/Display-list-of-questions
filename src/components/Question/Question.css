@@ -1,0 +1,21 @@
+section {
+    position: relative;
+ 
+}
+
+section h2 {
+    padding: 1em;
+    background-color: #f4f4f4;
+    text-align: start;
+}
+
+section h2:hover {
+    background-color:#ececec; 
+}
+
+section p {
+    background-color: #f4f4f4;
+    padding: 1em;
+    text-align: start;
+    
+}
