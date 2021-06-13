@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react'
+import React, {useContext } from 'react'
 import { AnswerContext } from '../AnswerProvider/AnswerProvider'
 import './Question.css'
 import ArrowDown from '../Arrow/ArrowDown'

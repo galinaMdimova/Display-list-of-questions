@@ -1,5 +1,6 @@
 section {
     position: relative;
+    padding: 0.5em;
  
 }
 
@@ -7,6 +8,7 @@ section h2 {
     padding: 1em;
     background-color: #f4f4f4;
     text-align: start;
+    cursor: url("../../img/hand-pointer-solid.svg"), auto;
 }
 
 section h2:hover {
