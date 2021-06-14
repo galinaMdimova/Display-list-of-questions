@@ -1,27 +1,23 @@
 .section {
-    position: relative;
     padding: 0.5em; 
 }
 
-.question {
-    padding: 1em;
+/*.question {
     background-color: #f4f4f4;
     text-align: start;
     cursor: url("../../img/hand-pointer-solid.svg"), auto;
-}
-
-.question:hover {
-    background-color:#ececec; 
-}
-
-.question-clicked {
-    padding: 1.5em;
-}
-
+} */
 
 .section p {
     background-color: #f4f4f4;
     padding: 1.5em;
-    text-align: start;    
+    text-align: start;   
 }
 
+.arrow {
+    transition: all 2 linear;
+}
+
+.arrow.rotate {
+    transform: rotate(180deg);
+}
