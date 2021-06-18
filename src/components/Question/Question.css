@@ -1,5 +1,6 @@
 .section {
     padding: 0.5em; 
+     
 }
 
 /*.question {
@@ -15,7 +16,8 @@
 }
 
 .arrow {
-    transition: all 2 linear;
+    float: right;
+    transition: 'transform 150ms ease';
 }
 
 .arrow.rotate {
